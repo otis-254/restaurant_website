@@ -15,6 +15,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+  
 }
 a{
     color: white;
@@ -23,6 +24,10 @@ a{
  
 .color-primary{
 color: khaki;
+}
+ 
+.title{
+   margin-right: 30px;
 }
 
 .body p{
@@ -34,8 +39,8 @@ color: khaki;
  #navbar{
     background-color: orange;
     overflow: auto;
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
  }
  
  .body button{
@@ -161,7 +166,7 @@ color: khaki;
    width: 80%;
 }
 
-#services{
+#about{
    background-image: url('./img/Hotel.jpg');  
    position: fixed;
    max-width: 100vw;
@@ -170,71 +175,55 @@ color: khaki;
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
-   text-align: center;
+   text-align: justify;
 }
-#services .serv1{
+#about .serv1{
    padding: 30px;
    margin-top: 30px;
    width: 50%;
    float: right;
    color: white;
-   line-height: 1.5em;
+   line-height: 1.9em;
    margin-right: 20px;
 }
 
-#testimonials{
-   padding-top: 30px;
-   color: white;
+#about .serv1 h2{
+   font-size: 30px;
 }
 
-#testimonials h3{
-   font-size: x-large;
+#about .serv1 p{
+   font-size: 18px;
+}
+ 
+
+/* Testimonials */
+#Testimonials{
+   background-color: white;
+   width: 1000px;
+   height: 500px;
+   margin-left: 190px;
+   padding: 50px;
+
 }
 
-#testimonials .testimo{
-   background-color: lavender;
-   width: 900px;
-   display: inline-flex;
-   margin: 40px 40px;
+#testimonials .testi{
+   padding-left: 30px;
+   color: black;
    text-align: left;
-   margin: 20px;
-   
 }
 
-
-#testimonials .testimo .testimo1{
-   width: 25%;
+.img{
+   float: left;
 }
 
-#testimonials .testimo .testimo2{
-   width: 70%;
+.img-test{
+
+   display: inline-block;
+   width: 800px;
 }
-
-#testimonials .testimo .testimo1 .image{
-float: left;
+.img-test p{
+   text-align: left;
+   margin-top: 30px;
+   margin-left: 50px;
+   line-height: 1.5em;
 }
-
-
-
-
-
-
-
-/* 
-
-button {
-   width: 53px;
-   height: 21px;
-   overflow: hidden;
-   -webkit-transition: width 1s;
-   transition: width 1s;
-   white-space: nowrap; /*this was suggested by jaunt, thanks 
-
- button:hover {
-   width: 145px;
-   -webkit-transition: width 1s;
-   transition: width 1s;
- }
- button:hover::after {
-   content: 'Add new result';
- } */
